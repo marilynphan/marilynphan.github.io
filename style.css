@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(255, 165, 124);
+    background-image: url("mix colors.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1, h3 {
+    font-family: 'Josefin Slab', serif;
+    text-decoration: none;
+    color: black;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightyellow;
+}
+#nav li {
+    float: left;
+}
+#nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:black;
+}
+#nav li a:hover{
+    background-color: lightpink;
+}
+#content {
+     border: lightpink solid 2px;
+     margin-left: auto;
+     margin-right:auto;
+     margin-top: 16px;
+     padding-bottom: 16px;
+     text-align: center;
+     width: 68%;
+     background-color: rgba(255,255,255,0.3);
+}
+table {
+    margin: auto;
+}
+#content ul, #content ol {
+    width: 25%;
+    margin: auto;
+}
