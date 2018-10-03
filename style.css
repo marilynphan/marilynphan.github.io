@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(255, 165, 124);
-    background-image: url("mix colors.jpg");
+    background-color: #fce4ec;
+    background-image: url("strawberries.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -10,7 +10,7 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
-h1, h3 {
+h1, h2, h3 {
     font-family: 'Josefin Slab', serif;
     text-decoration: none;
     color: black;
@@ -20,7 +20,7 @@ h1, h3 {
     margin: -8px;
     padding: 0;
     overflow: hidden;
-    background-color: lightyellow;
+    background-color:#fce4ec;
 }
 #nav li {
     float: left;
@@ -43,7 +43,7 @@ h1, h3 {
      padding-bottom: 16px;
      text-align: center;
      width: 68%;
-     background-color: rgba(255,255,255,0.3);
+     background-color: rgba(255,255,255,0.9);
 }
 table {
     margin: auto;
