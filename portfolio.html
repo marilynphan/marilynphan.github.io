@@ -19,7 +19,58 @@
           <img src="homepage_game.PNG" alt=homepage>
           <h2>Game In Play</h2>
           <img src="game.PNG" alt=game>
-          
+            <p>In Aim & Drop, there is a parrot flying in the air. You can control<br>
+            when the parrot can poop. The goal of the game is to poop on a man<br>
+            when he passes by. The kind of scoring system I implement is a score<br>
+            of having three tries to poop on a man. The randomness occurs when<br>
+            the man appears as he comes across the screen when it is expected. <br>
+            The game becomes harder when you pick on different levels of<br>
+            difficulty. You are able to win the game if you are able to poop on<br>
+            the man within three tries. If you fail to do so within the given tries<br>
+            then you lose.</p>
+            <p>I created this game because I wanted to make a simple game enough <br>
+            for everyone can play, but I wanted it to be unique enough compared to<br>
+            the other games being created. My inspiration of the game's concept<br>
+            came from a similar game called Space Shooter. One successful point<br>
+            in my game was making the background shift back and forth to another<br>
+            background image in order to make the game look like it was moving <br>
+            forward continuously. Another successful point was my game's homepage<br>
+            as I was able to make it easy enough for my users to navigate through.<br>
+            However, I struggle to create certain parts of the game. For example,<br>
+            I struggle to make the man to move across the screen and disspear<br>
+            once it reaches the other end of the screen. I was able to solve this<br>
+            problem by using a block for it to move across the x axis until it <br>
+            hits -235 on the x axis. Once it reaches this point, I added a <br>
+            "delete this clone" block so the sprite will disappear. Another<br>
+            obstacle was figuring how to make the homepage hide once the game<br>
+            starts. I soon was able to realize that I could utilize the broadcast<br>
+            block to help me the solve this problem. First I used a "if" block <br>
+            and said that if this level of difficulty or tutorial is chosen then<br>
+            it would send a broadcast to the other sprites to disappear, and it <br>
+            would send one to itself to hide as well. Then I inputted this into <br>
+            the other homepage sprite to do the same. If I had more time to <br>
+            improve my game, then I would've added more diversity in the people<br>
+            for the parrot to poop on. Also I would've made the people have a <br>
+            reaction and do a certain action once the bird does poop on them.</p>
+          <h2>Algorithm</h2>
+          <img src="algorithm.png" alt= algorithm>
+            <p>An algorithm that is important to the game is this "if-else" <br>
+            statement that is used to moderate and control the speed the man<br>
+            depending on the level of difficulty chosen. For instance, if <br>
+            the hard level was chosen then the man would receive a broadcast to<br>
+            activate this certain script. This specific script is an algorithm <br>
+            because it executes step to step commands and utilizes a specific set<br>
+            of instructions. For example, once the script receives a broadcast to<br>
+            activate it, then it goes through the first step of an "if-else" block<br>
+            which tells it to set the speed to -15 if the timer is less than 5 <br>
+            seconds. However if the timer surpasses 5 seconds then it will execute<br>
+            the second step to change the speed to -17, or else, if the time is<br>
+            past 20 seconds then this will lead to the last step which is to<br>
+            increase the speed up to -20.</p>
+          <h2>More Blocks</h2>
+          <img src="more_block.png" alt=algorithm>
+          <h2>Link to Game:</h2>
+          <a href="https://scratch.mit.edu/projects/259664739/#editor">Aim & Drop</a>
         </div>
     </body>
     </head>
